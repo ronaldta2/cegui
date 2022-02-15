@@ -1440,7 +1440,7 @@ void OgreRenderer::startWithClippingRegion(const Rectf& clippingRegion) {
         (clippingRegion.right() - clippingRegion.left()) / actualWidth,
         (clippingRegion.bottom() - clippingRegion.top()) / actualHeight
     );
-        
+
     target->manageClear();
 
     d_pimpl->d_renderSystem->beginRenderPassDescriptor(
